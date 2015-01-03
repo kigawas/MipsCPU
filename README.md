@@ -12,7 +12,7 @@ Instructions:
 >*  J-Type: ``J, JAL``
 
 MIPS Instruction specifications:
-[MIPS32 Architecture for programmers](http://mips246.tongji.edu.cn/file/reference/MIPS32%E6%8C%87%E4%BB%A4%E9%9B%86.pdf)
+[MIPS32 Architecture for programmers(English](http://mips246.tongji.edu.cn/file/reference/MIPS32%E6%8C%87%E4%BB%A4%E9%9B%86.pdf)
 
 Reference book:
-[《计算机原理与设计——Verilog HDL版》](http://mips246.tongji.edu.cn/file/reference/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%8E%9F%E7%90%86%E4%B8%8E%E8%AE%BE%E8%AE%A1%E2%80%94%E2%80%94%20Verilog%20HDL%E7%89%88.pdf)
+[《计算机原理与设计——Verilog HDL版》(Chinese)](http://mips246.tongji.edu.cn/file/reference/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%8E%9F%E7%90%86%E4%B8%8E%E8%AE%BE%E8%AE%A1%E2%80%94%E2%80%94%20Verilog%20HDL%E7%89%88.pdf)
