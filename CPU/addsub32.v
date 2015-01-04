@@ -23,9 +23,9 @@ assign Overflow = Overflow_temp;
 assign Nagative = Nagative_temp;
 
 always @* begin
-    if( aluc1 == 0 && aluc0 == 0 )begin//无符号数
+    if( aluc1 == 0 && aluc0 == 0 )begin//unsigned
         Result_temp = A + B;
-        if( Result_temp == 0 )//判断Zero标志位
+        if( Result_temp == 0 )
             Zero_temp = 1;
         else
             Zero_temp = 0;
@@ -34,7 +34,7 @@ always @* begin
         Nagative_temp = 0;
         Overflow_temp = 0;
      end
-     else if( aluc1 == 1 && aluc0 == 0 )begin//有符号数
+     else if( aluc1 == 1 && aluc0 == 0 )begin//signed
         Result_temp = A + B;
         
         if( Result_temp[31] == 1 )
@@ -55,7 +55,7 @@ always @* begin
         else 
             Zero_temp = 0;
      end
-     else if( aluc1 == 0 && aluc0 == 1 )begin//无符号数
+     else if( aluc1 == 0 && aluc0 == 1 )begin//unsigned
         Result_temp = A - B;
         if( Result_temp == 0 )
             Zero_temp = 1;
@@ -68,7 +68,7 @@ always @* begin
         Nagative_temp = 0;
         Overflow_temp = 0;
      end
-     else if( aluc1 == 1 && aluc0 == 1 )begin//有符号数
+     else if( aluc1 == 1 && aluc0 == 1 )begin//signed
         Result_temp = A - B;      
         Carry_temp = 0;
         if ( A[31] & B[31]) Overflow_temp = 0; //A < 0, B < 0, overflow = 0
