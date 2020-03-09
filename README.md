@@ -14,8 +14,5 @@ Instructions:
 MIPS Instruction specifications:
 [MIPS32 Architecture for Programmers(English, PDF Format)](http://mips246.tongji.edu.cn/file/reference/MIPS32%E6%8C%87%E4%BB%A4%E9%9B%86.pdf)
 
-Reference book:
-[《计算机原理与设计——Verilog HDL版》(Chinese, PDF Format)](http://mips246.tongji.edu.cn/file/reference/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%8E%9F%E7%90%86%E4%B8%8E%E8%AE%BE%E8%AE%A1%E2%80%94%E2%80%94%20Verilog%20HDL%E7%89%88.pdf)
-
 FPGA Information:
 [Xilinx Spartan-6 XC6LX16-CS324](http://www.digilentinc.com/Products/Detail.cfm?NavPath=2,400,897&Prod=NEXYS3&CFID=7134617&CFTOKEN=119ce24510883320-C6FCB8D8-5056-0201-02E1008C8300EA55)
